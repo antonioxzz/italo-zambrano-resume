@@ -1,0 +1,67 @@
+---
+import Section from "../Section.astro";
+import { skills } from "@cv"
+import AWS from "@/icons/AWS.astro"
+import FastAPI from "@/icons/FastAPI.astro";
+import Git from "@/icons/Git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import GraphQL from "@/icons/GraphQL.astro";;
+import React from "@/icons/React.astro";
+import TypeScript from "@/icons/TypeScript.astro";
+import Scrum from "@/icons/Scrum.astro";
+import Python from "@/icons/Python.astro";
+import TDD from "@/icons/TDD.astro";
+import English from "@/icons/Languages.astro";
+
+const SKILLS_ICONS: Record<string, any> = {
+    AWS,
+    FastAPI,
+    Git,
+    GitHub,
+    GraphQL,
+    React,
+    TypeScript,
+    Scrum,
+    Python,
+    TDD,
+    English,
+}
+
+---
+
+<Section title="Skills">
+    <ul>
+        {
+          skills.map(({ name }) => {
+            const iconName = name === "Python" ? "Python" : name
+            const Icon = SKILLS_ICONS[iconName]
+    
+            return (
+              <li>
+                {Icon && <Icon />} <span>{name}</span>
+              </li>
+            )
+          })
+        }
+      </ul>
+    </Section>
+    
+    <style>
+      ul {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+    
+      li {
+        align-items: center;
+        background: #eee;
+        border-radius: 6px;
+        color: black;
+        display: flex;
+        font-size: 0.8rem;
+        font-weight: 500;
+        gap: 4px;
+        padding: 0.2rem 0.6rem;
+      }
+    </style>

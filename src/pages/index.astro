@@ -1,0 +1,29 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import Experience from "@/components/sections/Experience.astro";
+import Education from "@/components/sections/Education.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Hero from "@/components/sections/Hero.astro";
+import About from "@/components/sections/About.astro";
+import Languages from "@/components/sections/Languages.astro";
+---
+
+<Layout title="Italo Zambrano Resume">
+  <main>
+    <Hero />
+	<About />
+	<Experience />
+	<Education />
+  <Languages />
+	<Skills />
+  </main>
+</Layout>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+</style>

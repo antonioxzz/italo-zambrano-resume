@@ -1,0 +1,143 @@
+{
+  "basics": {
+    "name": "Italo Zambrano",
+    "label": "Jr Full Stack Software Developer",
+    "image": "/me.jpeg",
+    "email": "antonioitalo.xzz@gmail.com",
+    "phone": "+593 994688464",
+    "summary": "I'm a Full Stack Software Developer with experience in building web applications. I have a passion for learning and sharing my knowledge with my teammates. I really enjoy working with Python and FastAPI in the backend but I also have experience with JavaScript and React in the frontend. In my free time I love to go to the gym, listening music and go out with my friends",
+    "location": {
+      "address": "Miguel Medina y SN",
+      "postalCode": "170208",
+      "city": "Quito",
+      "countryCode": "EC",
+      "region": "Ecuador"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Italo Antonio Zambrano",
+        "url": "https://www.linkedin.com/in/italo-antonio-zambrano-25ab71268/"
+      },
+      {
+        "network": "GitHub",
+        "username": "antonioxzz",
+        "url": "https://github.com/antonioxzz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ioet",
+      "position": "Jr Software Developer",
+      "url": "ioet.com",
+      "startDate": "2023-05-01",
+      "endDate": null,
+      "summary": "I'm working as a Full Stack Software Developer in the company. I'm working with Python and FastAPI in the backend. We use graphql to make the queries to the database(mongoDB). In the frontend we use React and TypeScript. I also have experience with AWS, Terraform and Docker for the infrastructure of the project."
+    },
+    {
+      "name": "TechnoFrog Inc",
+      "position": "Developer",
+      "startDate": "2022-06-01",
+      "endDate": "2022-10-01",
+      "summary": "I started a freelance company with friends. We offered advice and project realization in different programming languages such as: python, c++, java. We also offered programming courses for beginners and advanced students.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "education": [{
+    "institution": "Escuela Politecnica Nacional",
+    "url": "https://www.epn.edu.ec/",
+    "area": "Computer Science",
+    "studyType": "Engineering",
+    "startDate": "2021-06-01",
+    "endDate": null,
+    "carrer": [
+      "Computer Science"
+    ]
+  }],
+
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Junior",
+      "keywords": [
+        "Web Development", "Backend"
+      ]
+    },
+    {
+      "name": "FastAPI",
+      "level": "Junior",
+      "keywords": [
+        "Web Development", "Backend", "API"
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "level": "Junior",
+      "keywords": [
+        "Web Development", "Backend", "API"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Junior",
+      "keywords": [
+        "Web Development", "Frontend", "Frontend"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Junior",
+      "keywords": [
+        "Web Development", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Junior",
+      "keywords": [
+        "Infraestructure", "Cloud", "Backend"
+      ]
+    },
+    {
+      "name": "TDD",
+      "level": "Junior",
+      "keywords": [
+        "Web Development", "Backend", "Frontend"
+      ]
+    },
+    {
+      "name": "Scrum",
+      "level": "Mid",
+      "keywords": [
+        "Metodology", "Agile", "Development"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Junior",
+      "keywords": [
+        "Version Controller", "Development"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Junior",
+      "keywords": [
+        "Version Controller", "Development"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ]
+}
