@@ -31,9 +31,17 @@
       "name": "ioet",
       "position": "Jr Software Developer",
       "url": "ioet.com",
-      "startDate": "2023-05-01",
+      "startDate": "2024-06-01",
       "endDate": null,
-      "summary": "I'm working as a Full Stack Software Developer in the company. I'm working with Python and FastAPI in the backend. We use graphql to make the queries to the database(mongoDB). In the frontend we use React and TypeScript. I also have experience with AWS, Terraform and Docker for the infrastructure of the project."
+      "summary": "I'm working as a Full Stack Software Developer in the company. I have been working on several projects using different technologies, such as: python, golang for the Backend and TypeScript, NextJs in the Frontend and I have worked with NoSQL and SQL Databases. I also have experience working with AWS to deploy our applications."
+    },
+    {
+      "name": "ioet",
+      "position": "Trainee Software Developer",
+      "url": "ioet.com",
+      "startDate": "2023-06-01",
+      "endDate": "2024-05-31",
+      "summary": "I was part of a program that allowed me to learn more about the software devopment. I had very experienced mentors who taught me about agile methodologies and different programming technologies."
     },
     {
       "name": "TechnoFrog Inc",
@@ -47,14 +55,14 @@
     }
   ],
   "education": [{
-    "institution": "Escuela Politecnica Nacional",
-    "url": "https://www.epn.edu.ec/",
-    "area": "Computer Science",
+    "institution": "Universidad Politecnica Salesiana",
+    "url": "https://www.ups.edu.ec/",
+    "area": "Software Engineering",
     "studyType": "Engineering",
     "startDate": "2021-06-01",
     "endDate": null,
     "carrer": [
-      "Computer Science"
+      "Software Engineering"
     ]
   }],
 
