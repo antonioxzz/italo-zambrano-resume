@@ -31,13 +31,13 @@
       "name": "ioet",
       "position": "Software Engineer",
       "url": "ioet.com",
-      "startDate": "2023-06-01",
+      "startDate": "2022-06-01",
       "endDate": null,
       "summary": [
         "Migrated integrations from Oracle Integration Cloud to AWS, leveraging AWS Lambda and FastAPI for scalable and efficient solutions in Python and calling Azure storage service to store files.",
         "Implemented a CI/CD pipeline using GitHub Actions and AWS CodePipeline, automating the deployment process and ensuring seamless integration of code changes.",
         "Automated Regression Testing to test the integration of multiple microservices using Python and AWS Lambda, ensuring high-quality software delivery and appliying TDD principles.",
-        "Developed an AI-powered talent matching system leveraging LLMs, a vector database, and OpenAI’s ChatGPT API. The system identified the best candidates for new positions based on their skills, years of experience, and career aspirations.",
+        "Designed and implemented a microservices architecture with hexagonal architecture principles for a talent recommendation system powered by LLMs.Integrated a vector database to perform semantic searches, improving accuracy in matching candidates based on skills, experience, and preferences.Optimized database queries and API communication with ChatGPT, reducing latency and enhancing system scalability.",
         "Contributed to a full-stack application that managed employee job history and open positions. Built the backend using Go and the frontend with TypeScript and React, enabling seamless employee transitions into new roles.",
         "Worked on a client management platform that tracked hiring stages and integrated with an external recruitment service. Designed GraphQL queries to efficiently retrieve data from a PostgreSQL database and implemented backend logic using Python.",
         "Developed a centralized enterprise data platform that provided essential data to multiple internal applications. Built a frontend with TypeScript and React, designed a Backend-for-Frontend (BFF) service, and implemented GraphQL-based MongoDB interactions to streamline data access across the organization."
@@ -46,10 +46,10 @@
     },
     {
       "name": "ioet",
-      "position": "Trainee Software Developer",
+      "position": "Junio Software Developer",
       "url": "ioet.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-05-31",
+      "startDate": "2021-06-01",
+      "endDate": "2022-05-31",
       "summary": "Applied SOLID principles, desing patterns, TDD, CI/CD, Docker, and  integration between the backend and frontend components. Additionally, I implemented CI/CD pipelines using GitHub Actions and Docker to automate the deployment process."
     }
   ],
